@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="design/fiche2.css" />
+	<script src="./js/form.js"></script>
+    <title>Ticket</title>
+  </head>
+  <body onload="chngdate()">
+    <header>
+      <a id="logo-link" class="a-header" href="trait1.html"
+        ><img id="logo" src="img/logo.png" alt="Logo"
+      /></a>
+      <span id="headerlinks">
+        <a id="home-link" class="a-header" href="trait1.html">Home</a>
+        <a class="a-header" href="catalogue.html">Catalogue</a>
+        <a class="a-header" href="form.html">Ticket</a>
+        <a class="a-header" href="contact.html">Contact</a>
+      </span>
+    </header>
+    <form onSubmit="verif()">
+      <fieldset class="formulaire">
+        <legend><strong>Reservation</strong></legend>
+        <p>
+          Nom: <input type="text" id="nom" placeholder="votre nom " required onkeyup="verifNom()" />
+		  <span id="nom-err"></span>
+        </p>
+        <p>
+          Prenom:<input type="text" id="prenom" placeholder="votre prénom " required onkeyup="verifPrenom()"/>
+		  <span id="prenom-err"></span>
+        </p>
+        <p>
+          numero de telephone:<input type="text" id="num" placeholder="votre numéro " required onkeyup="verifTel()"/>
+		  <span id="tel-err"></span>
+        </p>
+        <p>
+          Adress email:<input type="text" id="email" placeholder="votre e-mail " required onkeyup="verifEmail()" />
+		  <span id="email-err"></span>
+        </p>
+        <p>film choisit
+		<select id="listefilm"  onchange="calcul()">
+          	<option value="6">Knowing</option>
+          	<option value="11">Interstellar</option>
+          	<option value="9">All Quiet on the Western Front</option>
+          	<option value="7">Puss in Boots: The Last Wish</option>
+			<option value="15">Spider-Man: No Way Home</option>
+			<option value="8">The Batman</option>
+		</select>
+			</p>
+		<br />
+		 <p>
+        choisir le jour
+		 
+		<select id="liste">
+          	<option></option>
+          	<option></option>
+          	<option></option>
+		</select>
+			 </p><br />
+        <p>
+          nombre de ticket <input type="number" id="nb" onChange="calcul()" />
+        </p>
+        <p>prix<input id="prix" type="text" id="prix"/></p>
+        <input class="btn" type="submit" value="acheter" onclick="acheter()" />
+      </fieldset>
+    </form>
+	 <footer>
+  	<p class="pf">© 2023 | 3eme info 1 | Isra Dabaghi & Eya Bekri & Taher dkhil </p>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="design/fiche3.css">
+<script src="./js/contact.js"></script>
+<title>	CONTACT</title>
+</head>
+
+<body>
+	<header>
+      <a id="logo-link" class="a-header" href="trait1.html"
+        ><img id="logo" src="img/logo.png" alt="Logo"
+      /></a>
+      <span id="headerlinks">
+        <a id="home-link" class="a-header" href="trait1.html">Home</a>
+        <a class="a-header" href="catalogue.html">Catalogue</a>
+        <a class="a-header" href="form.html">Ticket</a>
+        <a class="a-header" href="contact.html">Contact</a>
+      </span>
+    </header>
+	<form>
+		<fieldset>
+			<p>Nom et Prénom<input type="text" id="nom" required placeholder="votre nom et prénom" onkeyup="verifNom()"><span id="nom-err"></span></p>
+				<p>E-mail<input type="text" id="mail" required placeholder="votre e-mail" onkeyup="verifEmail()"><span id="email-err"></span></p>
+			<p>Votre avis sur notre service....<br> Votre avis sur le cinéma Nous avons....<br> votre avis sur les films <br>que nous vous proposons....</p>
+			<p><textarea></textarea></p>
+			<p><input id="btt" type="submit" value="ENVOYER" onClick="envoyer()"></p>
+		</fieldset>
+	</form>
+	<footer>
+  	<p class="pf">© 2023 | 3eme info 1 | Isra Dabaghi & Eya Bekri & Taher dkhil </p>
+</footer>
+</body>
+</html>

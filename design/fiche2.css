@@ -1,0 +1,134 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header {
+    position: fixed;
+    background-color: rgba(22,3,3,0.90);
+    height: 80px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 5px 5px
+}
+#logo {
+	position: relative;
+	bottom: 7px;
+  	height: 80px; 
+  	margin-right: 20px; 
+}
+
+#logo-link {
+  margin-left: 20px; 
+}
+
+#headerlinks{
+	position: absolute;
+	right:5px;
+	top: 25px;
+}
+
+.a-header {
+  color: white; 
+  text-decoration: none; 
+  margin-top: 7px;
+  display: inline-block; 
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+legend{
+    text-shadow: 8px 8px 5px #FFFDFD;
+    color: #93213D;
+    font-family: Bradley Hand ITC;
+    font-size: 40px;
+	
+}
+body{
+    background-image: url("../img/formbg.jpg");
+    /*background-repeat: repeat-y;*/
+    background-size: cover;
+	background-repeat: no-repeat;
+
+	
+	
+}
+.formulaire{
+    border-radius: 3px 5px 3px 6px;
+    display: inline-block;
+    padding-left: 15px;
+	margin-left: 50%;
+	margin-right: 50px;
+}
+p{	
+	padding: 7px;
+	font-size: 20px;
+	font-family:Bradley Hand ITC;
+    color:lightcoral;
+}
+placeholder{
+    color: #730017;
+}
+input:placeholder{
+	color: black;
+	opacity:0.3;
+	font-family: roboco;
+	font-style: emoji;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.8); 
+}
+input:focus{
+	background-color:rgba(209, 101, 158, 0.64);
+	font-family: orbitron;
+	color: white;
+}
+fieldset{
+    margin-left: 20px;
+    margin-right: 100px;
+    width: 600px;
+	background-color: rgba(0, 0, 0, 0.8); 
+	margin-top: 100px;
+}
+span{
+	color: darkred;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.btn{
+	margin: 20px;
+	height: 40px;
+	width: 92px;
+	background-color: rgba(77,41,41,1.00);
+	color: white;
+	font-size: 15px;
+	border: 2px #FFFFFF solid;
+	border-radius: 18px;
+	cursor: pointer;
+}
+#prix{
+	border: none;
+	background-color: rgba(0,0,0,0.00);
+	color: white;
+	padding-left: 10px;
+	font-size: 15px;
+}
+footer{
+	bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(32,4,4,0.90);
+}
+.pf {
+	text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 35%;
+ 	left: 37%;
+}

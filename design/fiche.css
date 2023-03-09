@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+    position: fixed;
+    background-color: rgba(22,3,3,0.90);
+    height: 80px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 5px 5px
+}
+#logo {
+	position: relative;
+	bottom: 7px;
+  	height: 80px; 
+  	margin-right: 20px; 
+}
+
+#logo-link {
+  margin-left: 20px; 
+}
+
+#headerlinks{
+	position: absolute;
+	right:5px;
+	top: 25px;
+}
+
+.a-header {
+  color: white; 
+  text-decoration: none; 
+  margin-top: 7px;
+  display: inline-block; 
+  margin-right: 30px; 
+	font-size: 20px;
+}
+
+body{
+	
+    background-image: url("../img/indexb.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+	font-size: 20px;
+
+}
+/*fieldset1{
+    background-color: rgba(158,90,93,0.51);	
+}*/
+h1{
+	padding-top: 100px;
+    font-family: Algerian;
+    text-align: center;
+    font-size: 90px;
+    color: #7F147B;
+    font-style: inherit;
+    text-shadow: 6px 6px 3px #F5DCDC;
+    font-weight: bold;
+}
+h3{
+    text-size: 60px;
+    text-align: justify-all;
+    color: #8C322B;
+    font-family:font-family: orbitron;
+    font-weight: bolder;
+	font-style: Brush Script MT;
+}
+td {	
+	padding: 10px;
+        border: 2px solid #666;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+      }
+table {
+	padding: 10px;
+	background-color: rgba(32,9,10,0.65);
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+h5{
+    text-size: 20px;
+    font-family: Brush Script MT;
+    text-align: center;
+    color: #565251;
+}
+
+p{
+    font-size: 15px;
+    color: #BEBEBE;
+}
+.nom{
+    color: #8A3D01;
+    font-size: 26px;
+    font-style: Gill Sans Ultra Bold Condensed;
+    text-shadow: 6px 6px 3px #060606;
+    font-weight: bolder;	
+}
+    
+.img{
+	font align-content:center;
+	border: 2px solid  #000000;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+	
+}
+#img1{
+	display: block;
+	margin: 0px auto;
+}
+.btn1, .btn2{
+	padding-top: 50px;
+	margin-bottom: 10px;
+	height: 250px;
+}
+#txt1,h3{
+	text-align: center;
+	font-size: 40px;
+	color: rgba(79,19,0,1.00);
+	text-shadow: 7px 2px 10px #ffffff;
+	background-color: rgba(0,0,0,0.11);
+}
+#button1{
+	display: block;
+	margin: 0px auto;
+	width: 200px;
+	height: 90px;
+	background-color: rgba(49,0,0,0.91);
+	color: white;
+	font-size: 21px;
+	border: 5px #FFFFFF solid;
+	border-radius: 25px;
+	cursor: pointer;
+	font-family: "orbitron";
+}
+a{
+	text-decoration: none;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(32,4,4,0.90);
+}
+.pf {
+	text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 35%;
+ 	left: 37%;
+}
